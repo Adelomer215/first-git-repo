@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-content {
+    background-color: #DDD;
+    display: flex;
+}
+.page-content .dasbord {
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    min-height: 100vh;
+}
+.page-content .dasbord h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+.page-content .content {
+    width: calc(100% - 220px);
+    background-color: #fff;
+}
